@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^10.4.5",
+    "less": "^4.2.2",
+    "vite": "^6.1.0",
+    "vite-plugin-handlebars": "^2.0.0",
+    "vite-plugin-purgecss": "^0.2.12"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.24.2",
+    "nanoid": "^3.3.8",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.2",
+    "rollup": "^4.34.8",
+    "source-map-js": "^1.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
